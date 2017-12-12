@@ -15,11 +15,15 @@ You need to configure DataWedge on your device to output scans via Intent
   * Intent category: leave blank
   * Intent delivery: Broadcast intent
   * The following image shows the Intent output configuration
+  
 ![Datawedge Configuration](https://raw.githubusercontent.com/darryncampbell/DataWedge-Intent-Example-1/master/screenshots/datawedge_settings.png?raw=true)
 
 ##  The application
-1. Launch the application
+Launch the application
+
 ![Application](https://raw.githubusercontent.com/darryncampbell/DataWedge-Intent-Example-1/master/screenshots/application_before_scan.png?raw=true)
-2. Scan a barcode.  The read barcode should be shown on the UI
+
+Scan a barcode.  The read barcode should be shown on the UI
+
 ![Application](https://raw.githubusercontent.com/darryncampbell/DataWedge-Intent-Example-1/master/screenshots/application_after_scan.png?raw=true)
 
