@@ -61,6 +61,13 @@ public class MainActivity extends AppCompatActivity {
         String decodedData = initiatingIntent.getStringExtra(getResources().getString(R.string.datawedge_intent_key_data));
         String decodedLabelType = initiatingIntent.getStringExtra(getResources().getString(R.string.datawedge_intent_key_label_type));
 
+        if (null == decodedSource)
+        {
+            decodedSource = initiatingIntent.getStringExtra(getResources().getString(R.string.datawedge_intent_key_source_legacy));
+            decodedData = initiatingIntent.getStringExtra(getResources().getString(R.string.datawedge_intent_key_data_legacy));
+            decodedLabelType = initiatingIntent.getStringExtra(getResources().getString(R.string.datawedge_intent_key_label_type_legacy));
+        }
+        
         final TextView lblScanSource = (TextView) findViewById(R.id.lblScanSource);
         final TextView lblScanData = (TextView) findViewById(R.id.lblScanData);
         final TextView lblScanLabelType = (TextView) findViewById(R.id.lblScanDecoder);
