@@ -1,5 +1,7 @@
 ## This is an unofficial demo application.  An official version of this app is available from Zebra at https://github.com/Zebra/samples-datawedge/tree/master/BasicIntent1.  I would personally recommend using the official sample, though this repository will remain for reference.
 
+## This repository is out of date - please refer to the updated 'getting started' guide at [https://github.com/darryncampbell/DataWedge-GettingStarted-Samples](https://github.com/darryncampbell/DataWedge-GettingStarted-Samples) 
+
 # DataWedge Intent Example 1
 
 This application shows how to receive barcode scans via an Intent through the DataWedge service on Zebra mobile computing devices.
